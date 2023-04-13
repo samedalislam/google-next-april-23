@@ -38,6 +38,7 @@ const Header = () => {
                         type="text"
                         ref={searchInputRef}
                         className="flex-grow w-full focus:outline-none"
+                        defaultValue={router.query.term}
                     />
                     <HiX
                         className="h-7 w-7 sm:mr-3 text-gray-500 cursor-pointer hover:bg-gray-100 p-[3px] rounded-full transition duration-100 transform"
